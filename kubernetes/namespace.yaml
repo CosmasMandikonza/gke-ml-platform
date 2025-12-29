@@ -1,0 +1,8 @@
+#Name space isolates the resources form others in the cluster '
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ml-platform
+  labels:
+    name: ml-platform
+    environment: production
